@@ -1,0 +1,49 @@
+Shape: The dataset has 3333 rows and 21 columns.
+
+Columns: The dataset has the following columns:
+
+'state': The state the customer resides in
+'account length': The number of days the customer has been with the company
+'area code': The area code of the customer's phone number
+'phone number': The customer's phone number
+'international plan': Whether the customer has an international plan (yes/no)
+'voice mail plan': Whether the customer has a voice mail plan (yes/no)
+'number vmail messages': The number of voice mail messages the customer has
+'total day minutes': Total minutes of day calls
+'total day calls': Total number of day calls
+'total day charge': Total charge for day calls
+'total eve minutes': Total minutes of evening calls
+'total eve calls': Total number of evening calls
+'total eve charge': Total charge for evening calls
+'total night minutes': Total minutes of night calls
+'total night calls': Total number of night calls
+'total night charge': Total charge for night calls
+'total intl minutes': Total minutes of international calls
+'total intl calls': Total number of international calls
+'total intl charge': Total charge for international calls
+'customer service calls': Number of customer service calls made
+'churn': Whether the customer has churned (False: not churned, True: churned)
+
+Data Types:
+
+The 'state', 'phone number', 'international plan', and 'voice mail plan' columns are of object data type.
+The 'account length', 'area code', 'number vmail messages', 'total day calls', 'total eve calls', 'total night calls', 'total intl calls', 'customer service calls' columns are of int64 data type.
+The 'total day minutes', 'total day charge', 'total eve minutes', 'total eve charge', 'total night minutes', 'total night charge', 'total intl minutes', 'total intl charge' columns are of float64 data type.
+The 'churn' column is of bool data type.
+
+
+Unique Values:
+
+The 'state' column has unique values representing different states.
+The 'international plan' and 'voice mail plan' columns have unique values of 'yes' and 'no' indicating the presence or absence of the respective plans.
+
+Class Imbalance:
+
+The 'churn' column indicates whether a customer has churned or not.
+There are 2,850 records with "False" (not churned) and 483 records with "True" (churned).
+The churn class distribution shows that the dataset has a class imbalance, with a higher number of customers not churning compared to those who churned.
+
+
+
+
+

@@ -1,0 +1,109 @@
+Positive Correlation:
+
+Values close to 1 indicate a strong positive correlation.
+Values close to 0.5 or above indicate a moderate positive correlation.
+Values close to 0 indicate a weak or no correlation.
+
+Negative Correlation:
+Values close to -1 indicate a strong negative correlation.
+Values close to -0.5 or below indicate a moderate negative correlation.
+Values close to 0 indicate a weak or no correlation.
+
+Numerical columns:
+Account Length:
+
+It has a weak positive correlation with 'total day minutes' (0.006216) and 'total day charge' (0.006214).
+It has a weak negative correlation with 'number vmail messages' (-0.004628).
+Number of Voice Mail Messages:
+
+It has a weak positive correlation with 'total day minutes' (0.000778) and 'total day charge' (0.000776).
+It has a weak negative correlation with 'total day calls' (-0.009548).
+Total Day Minutes:
+
+It has a weak positive correlation with 'account length' (0.006216) and 'total day charge' (1.000000).
+It has a weak negative correlation with 'number vmail messages' (0.000778).
+Total Day Calls:
+
+It has a moderate positive correlation with 'total day minutes' (0.006750) and 'total day charge' (0.006753).
+It has a weak negative correlation with 'number vmail messages' (-0.009548).
+Total Day Charge:
+
+It has a weak positive correlation with 'account length' (0.006214) and 'total day minutes' (1.000000).
+It has a weak negative correlation with 'number vmail messages' (0.000776).
+
+These correlation coefficients indicate that there is no strong linear relationship between any pair of variables in the provided subset.
+The correlations are generally weak, suggesting that these variables are not strongly dependent on each other.
+It's important to note that correlation measures only linear relationships, and there might be other types of relationships or dependencies between the variables that are not captured by correlation alone.
+
+Numerical feature distribution:
+
+Account Length: The distribution of account lengths appears to be relatively uniform, indicating that customers have varying durations of account tenure.
+
+Number of Voicemail Messages: The majority of customers have a low number of voicemail messages, with a peak at zero. This suggests that a significant portion of customers does not utilize the voicemail feature.
+
+Total Day Minutes: The distribution of total day minutes is approximately normal, with a slight right skew. Most customers have a range of 150 to 250 minutes of usage during the day, with a peak around 200 minutes.
+
+Total Day Calls: The distribution of total day calls shows a roughly symmetric pattern with a peak around 100 calls. This suggests that the majority of customers make a similar number of calls during the day, without any significant outliers.
+
+Total Day Charge: The distribution of total day charges closely follows the shape of the total day minutes distribution since the charge is directly proportional to the minutes. It is approximately normal with a slight right skew, reflecting the distribution of usage charges incurred during the day.
+
+Account Length:
+
+The distribution appears to be relatively uniform, with no prominent peaks or valleys.
+The data is evenly spread across the range of values.
+Number of Voicemail Messages:
+
+The distribution is skewed to the right, indicating that a majority of customers have a low number of voicemail messages.
+There is a peak at zero, suggesting that a significant portion of customers does not use voicemail.
+Total Day Minutes:
+
+The distribution is approximately normal, with a slight right skew.
+The majority of customers have total day minutes in the range of 150 to 250, with a peak around 200 minutes.
+Total Day Calls:
+
+The distribution is roughly symmetric and shows a peak around 100 calls.
+The data is relatively evenly spread across the range of values, with no significant outliers.
+Total Day Charge:
+
+The distribution closely follows the shape of the Total Day Minutes distribution since the charge is directly proportional to the minutes.
+It is approximately normal with a slight right skew.
+Total Eve Minutes:
+
+The distribution is similar to the Total Day Minutes distribution, with a peak around 200 minutes.
+It is slightly skewed to the right.
+Total Eve Calls:
+
+The distribution is approximately symmetric, with a peak around 100 calls.
+The data is relatively evenly spread across the range of values.
+Total Eve Charge:
+
+The distribution closely follows the shape of the Total Eve Minutes distribution since the charge is directly proportional to the minutes.
+It is approximately normal with a slight right skew.
+Total Night Minutes:
+
+The distribution is approximately normal, with a peak around 200 minutes.
+It is slightly skewed to the right.
+Total Night Calls:
+
+The distribution is approximately symmetric, with a peak around 100 calls.
+The data is relatively evenly spread across the range of values.
+Total Night Charge:
+
+The distribution closely follows the shape of the Total Night Minutes distribution since the charge is directly proportional to the minutes.
+It is approximately normal with a slight right skew.
+Total Intl Minutes:
+
+The distribution is right-skewed, indicating that a majority of customers have a lower number of international minutes.
+There is a peak around 10 minutes, suggesting that many customers have international calls of shorter duration.
+Total Intl Calls:
+
+The distribution is approximately symmetric, with a peak around 3-4 calls.
+The data is relatively evenly spread across the range of values.
+Total Intl Charge:
+
+The distribution closely follows the shape of the Total Intl Minutes distribution since the charge is directly proportional to the minutes.
+It is right-skewed, similar to the Total Intl Minutes distribution.
+Customer Service Calls:
+
+The distribution is right-skewed, indicating that most customers make a small number of customer service calls.
+There is a peak at zero, suggesting that a significant portion of customers does not make any customer service calls.
