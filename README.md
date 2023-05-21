@@ -72,9 +72,9 @@ The following tools were used in this project:
 
 - Install the required Python libraries if you haven't already.
 -  You can use the following command:
--  bash
+
    $ pip install pandas numpy matplotlib seaborn scikit-learn
-- bash
+
 
 
 
@@ -86,11 +86,11 @@ The following tools were used in this project:
 
 - Modify the code or experiment with different models and techniques as needed.
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Getting Started ##
 
 
-# Clone this project
-$ git clone (https://github.com/pauline-ndungu/Project)
+# Clone this project 
+git clone <Repository url>
 
 ## Model Evaluation
 
