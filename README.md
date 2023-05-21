@@ -74,7 +74,7 @@ The following tools were used in this project:
 -  You can use the following command:
 -  bash
    $ pip install pandas numpy matplotlib seaborn scikit-learn
-bash
+- bash
 
 
 
@@ -90,7 +90,7 @@ bash
 
 
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/phase-3-project
+$ git clone (https://github.com/pauline-ndungu/Project)
 
 ## Model Evaluation
 
