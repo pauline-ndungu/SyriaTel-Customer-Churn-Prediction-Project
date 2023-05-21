@@ -59,11 +59,6 @@ The project is organized into the following files and directories:
 
 - telecom_churn.ipynb: Jupyter Notebook containing the code, analysis, and modeling steps.
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies ##
 
@@ -92,7 +87,7 @@ The following tools were used in this project:
 
 ## :checkered_flag: Starting ##
 
-```bash
+
 # Clone this project
 $ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/phase-3-project
 
