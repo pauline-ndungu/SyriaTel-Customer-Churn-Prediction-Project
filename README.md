@@ -39,7 +39,7 @@
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
+  <a href="https://github.com/{{pauline-ndungu}}" target="_blank">Author</a>
 </p>
 
 <br>
@@ -75,10 +75,12 @@ The following tools were used in this project:
 
 - Clone the project repository to your local machine or download the project files.
 
-- Install the required Python libraries if you haven't already. You can use the following command:
+- Install the required Python libraries if you haven't already.
+-  You can use the following command:
+   $ pip install pandas numpy matplotlib seaborn scikit-learn
 
 
-$ pip install pandas numpy matplotlib seaborn scikit-learn
+
 
 - Open the telecom_churn.ipynb notebook using Jupyter Notebook.
 
