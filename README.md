@@ -38,7 +38,7 @@ The following tools were used in this project:
 ## :checkered_flag: Getting Started ##
 
 
-# Clone this project 
+- Clone this project 
 - git clone <Repository url>
    
 - Open the telecom_churn.ipynb notebook using Jupyter Notebook.
