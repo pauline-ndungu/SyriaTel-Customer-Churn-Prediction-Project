@@ -1,9 +1,9 @@
 
 
-<h1 align="center">Phase 3 Project</h1>
+<h1 align="center">Project</h1>
 
 
-## :dart: About ##
+## :dart: Project Title and Distribution ##
 
 
 This project aims to predict customer churn in a telecom company using machine learning techniques.
