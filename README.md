@@ -3,7 +3,7 @@
 <h1 align="center">Project</h1>
 
 
-## :dart: Project Title and Distribution ##
+## :dart: Project Title and Description ##
 
 
 This project aims to predict customer churn in a telecom company using machine learning techniques.
