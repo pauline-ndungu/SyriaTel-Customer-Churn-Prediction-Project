@@ -35,8 +35,12 @@ The following tools were used in this project:
    $ pip install pandas numpy matplotlib seaborn scikit-learn
 
 
+## :checkered_flag: Getting Started ##
 
 
+# Clone this project 
+- git clone <Repository url>
+   
 - Open the telecom_churn.ipynb notebook using Jupyter Notebook.
 
 - Run the code cells in the notebook sequentially to execute the analysis and modeling steps.
@@ -44,12 +48,6 @@ The following tools were used in this project:
 - Review the results, including visualizations and performance metrics of different models.
 
 - Modify the code or experiment with different models and techniques as needed.
-
-## :checkered_flag: Getting Started ##
-
-
-# Clone this project 
-git clone <Repository url>
 
 ## Model Evaluation
 
