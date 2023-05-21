@@ -107,3 +107,33 @@ Customer Service Calls:
 
 The distribution is right-skewed, indicating that most customers make a small number of customer service calls.
 There is a peak at zero, suggesting that a significant portion of customers does not make any customer service calls.
+
+Call-related features:
+
+There is a positive correlation between the number of customer service calls and total day calls (correlation coefficient: -0.018942).
+The number of customer service calls has a weak negative correlation with other call-related features, such as total eve calls and total night calls.
+
+Usage-related features:
+
+Total day minutes, total eve minutes, and total night minutes are positively correlated with their respective charges (correlation coefficient: 1.000000). This indicates that higher usage during the day, evening, and night leads to higher charges.
+There is a weak positive correlation between total day minutes and total eve minutes (correlation coefficient: 0.007043), as well as between total day minutes and total night minutes (correlation coefficient: 0.004323). This suggests that customers who use more minutes during the day tend to use more minutes during the evening and night as well.
+
+International calling features:
+
+Total intl minutes and total intl charge have a strong positive correlation (correlation coefficient: 0.999993). This implies that international minutes used directly contribute to the corresponding charges.
+The number of international calls (total intl calls) has a weak positive correlation with total intl minutes (correlation coefficient: 0.032304) and total intl charge (correlation coefficient: 0.032372). This suggests that customers who make more international calls tend to use more international minutes and incur higher charges.
+
+
+Other features:
+
+Account length does not show strong correlations with other features, except for a weak positive correlation with total day calls (correlation coefficient: 0.038470).
+The number of voicemail messages (number vmail messages) does not exhibit significant correlations with other features.
+
+Total day minutes and total day charge: These two variables have a perfect positive correlation of 1.000000. This indicates a strong linear relationship where higher total day minutes result in higher total day charges.
+
+Total eve minutes and total eve charge: Similar to the previous case, total eve minutes and total eve charge also have a perfect positive correlation of 1.000000. Higher total eve minutes are associated with higher total eve charges.
+
+Total night minutes and total night charge: Once again, there is a perfect positive correlation of 1.000000 between total night minutes and total night charge. Increased total night minutes are linked to increased total night charges.
+
+Total intl minutes and total intl charge: Total intl minutes and total intl charge have a very strong positive correlation of 0.999993, indicating a nearly perfect linear relationship. Higher total intl minutes correspond to higher total intl charges.
+
