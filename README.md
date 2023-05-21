@@ -72,8 +72,9 @@ The following tools were used in this project:
 
 - Install the required Python libraries if you haven't already.
 -  You can use the following command:
+-  bash
    $ pip install pandas numpy matplotlib seaborn scikit-learn
-
+bash
 
 
 
@@ -126,11 +127,6 @@ Please refer to the code and results in the telecom_churn.ipynb notebook for det
 In conclusion, this project demonstrated the process of predicting customer churn in a telecom company using machine learning techniques. By analyzing the Telecom Churn Dataset and training different models, it was possible to assess the performance of each model using evaluation metrics such as accuracy, precision, recall, and F1-score. Additionally, cross-validation was performed to validate the models' performance and ensure their generalization capability.
 
 
-
-
-
-
-Made with :heart: by <a href="https://github.com/pauline-ndungu" target="_blank">{{Pauline Ndung'u}}</a>
 
 &#xa0;
 
