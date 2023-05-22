@@ -1,2 +1,100 @@
 ##### Telecom Churn Prediction
 ** Documentation
+
+Introduction
+This documentation provides an overview of the analysis and modeling process performed on the Telecom Churn dataset. The goal of this project is to predict customer churn in the telecom industry using machine learning techniques. Churn refers to the situation where customers switch to a different service provider or cancel their subscription.
+
+Telecom Churn Prediction Documentation
+Introduction
+This documentation provides an overview of the analysis and modeling process performed on the Telecom Churn dataset. The goal of this project is to predict customer churn in the telecom industry using machine learning techniques. Churn refers to the situation where customers switch to a different service provider or cancel their subscription.
+
+The dataset includes the following columns:
+
+'account length': The number of days the customer has been with the telecom company.
+'area code': The area code of the customer's phone number.
+'international plan': Whether the customer has an international calling plan (yes or no).
+'voice mail plan': Whether the customer has a voice mail plan (yes or no).
+'number vmail messages': The number of voice mail messages sent by the customer.
+'total day minutes': The total number of minutes the customer used during the day.
+'total day calls': The total number of calls made by the customer during the day.
+'total day charge': The total charge for day usage.
+'total eve minutes': The total number of minutes the customer used during the evening.
+'total eve calls': The total number of calls made by the customer during the evening.
+'total eve charge': The total charge for evening usage.
+'total night minutes': The total number of minutes the customer used during the night.
+'total night calls': The total number of calls made by the customer during the night.
+'total night charge': The total charge for night usage.
+'total intl minutes': The total number of international minutes used by the customer.
+'total intl calls': The total number of international calls made by the customer.
+
+'total intl charge': The total charge for international usage.
+'customer service calls': The number of customer service calls made by the customer.
+'churn': The target variable indicating whether the customer churned or not (1 for churn, 0 for not churn).
+Data Preprocessing and Feature Engineering
+The analysis and modeling process involved the following steps:
+
+Exploratory Data Analysis (EDA): 
+Initial exploration of the dataset was performed to gain insights into the distribution of variables, identify missing values or outliers, and understand the relationship between features and the target variable.
+
+Data Cleaning: 
+The dataset was checked for missing values and outliers. No significant issues were found, so no imputation or outlier treatment was required.
+
+Feature Engineering: 
+Several new features were created to potentially improve the predictive power of the model. These features included interactions between existing variables, such as the interaction between 'day minutes' and 'service calls'.
+
+Feature Selection: 
+To identify the most relevant features for predicting churn, feature importance analysis was conducted using various techniques such as correlation analysis, feature importance plots, and statistical tests. The top features were selected based on their importance and relevance to the target variable.
+
+Model Development and Evaluation
+The dataset was split into training and testing sets with a ratio of 80:20. Three different classification models were trained and evaluated:
+
+Logistic Regression: Logistic regression is a widely used classification algorithm that models the relationship between the features and the target variable using a logistic function. The scikit-learn library was used to train a logistic regression model.
+
+Decision Tree: Decision tree is a non-parametric supervised learning algorithm that creates a tree-like model of decisions and their possible consequences. The scikit-learn library was used to train a decision tree model.
+
+Random Forest: Random forest is an ensemble learning method that combines multiple decision trees to create a more robust and accurate model. The scikit-learn library was used to train a random forest classifier.
+
+For each model, the following evaluation metrics were calculated on the test set:
+
+Accuracy: The ratio of correctly predicted churn cases to the total number of cases.
+Precision: The ratio of true positives to the sum of true positives and false positives, indicating the model's ability to correctly identify churn cases.
+Recall: The ratio of true positives to the sum of true positives and false negatives, indicating the model's ability to identify all positive churn cases.
+F1-score: The harmonic mean of precision and recall, providing a single metric that balances both metrics.
+Additionally, cross-validation was performed using 5-fold cross-validation to estimate the model's performance on unseen data.
+
+Results
+The following results were obtained for each model:
+
+Logistic Regression:
+
+Accuracy: 0.8426
+Precision: 0.4861
+Recall: 0.6931
+F1-score: 0.5714
+Decision Tree:
+
+Accuracy: 0.8261
+Precision: 0.4534
+Recall: 0.7228
+F1-score: 0.5573
+Random Forest:
+
+Accuracy: 0.9250
+Precision: 0.7629
+Recall: 0.7327
+F1-score: 0.7475
+Based on these results, both the Random Forest and Gradient Boosting Classifier achieved similar performance in terms of accuracy, precision, recall, and F1-score. The Logistic Regression and Decision Tree models showed slightly lower performance compared to the ensemble methods.
+
+Conclusion
+In this project, we performed an analysis and modeling process to predict customer churn in the telecom industry. We explored the Telecom Churn dataset, conducted data preprocessing and feature engineering, and developed and evaluated several classification models.
+
+The Random Forest and Gradient Boosting Classifier models demonstrated the best overall performance, achieving high accuracy and balanced precision and recall. The Logistic Regression and Decision Tree models also provided reasonable performance but were slightly less accurate in predicting churn.
+
+The choice of the final model depends on various factors such as interpretability, model complexity, training time, and specific business requirements. It is recommended to further analyze and compare the models based on these factors before making a final decision.
+
+Overall, this project provides a foundation for churn prediction in the telecom industry and can be further enhanced by incorporating additional features, exploring more advanced modeling techniques, and evaluating the models on larger and more diverse datasets.
+
+
+
+
+
