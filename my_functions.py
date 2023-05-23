@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd 
+import seaborn as sns
 
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
@@ -12,7 +13,52 @@ from sklearn.linear_model import LogisticRegression
 
 # Load the dataset into a pandas dataframe
 df = pd.read_csv('Data/telecom_churn.csv')
-def plot_categorical_churn(column_name):
+
+# Function for creating boxplots
+def create_boxplots(dataframe, columns):
+    num_cols = len(columns)
+    rows = (num_cols + 4) // 5  # Calculate the number of subplot rows
+    fig, axs = plt.subplots(rows, 5, figsize=(12, 10))
+    
+    for i, col in enumerate(columns):
+        ax = axs[i // 5, i % 5] if rows > 1 else axs[i]
+        ax.boxplot(data=dataframe, x=col)
+        ax.set_title(col)
+    
+    plt.tight_layout()
+    plt.show()
+
+# Function for creating box plots
+def create_kde_plots(dataframe, columns):
+    num_cols = len(columns)
+    rows = (num_cols + 4) // 5  # Calculate the number of subplot rows
+    fig, axs = plt.subplots(rows, 5, figsize=(12, 8))
+    
+    for i, col in enumerate(columns):
+        ax = axs[i // 5, i % 5] if rows > 1 else axs[i]
+        sns.kdeplot(data=dataframe, x=col, ax=ax)
+        ax.set_title(col)
+    
+    plt.tight_layout()
+    plt.show()
+
+# Function for creating countplots    
+def create_countplot(dataframe, column, title, font_size=12, font_weight='normal', xlabel=None, xlabel_fontsize=None, ylabel=None, ylabel_fontsize=None, ylabel_fontweight=None):
+    plt.figure(figsize=(12, 6))
+    sns.countplot(data=dataframe, x=column)
+    plt.title(title, fontsize=18, fontweight='bold')
+    plt.xticks(rotation=90, fontsize=font_size, fontweight=font_weight)
+    
+    if xlabel:
+        plt.xlabel(xlabel, fontsize=xlabel_fontsize, fontweight='bold')
+    
+    if ylabel:
+        plt.ylabel(ylabel, fontsize=ylabel_fontsize, fontweight='bold')
+    
+    plt.show()
+
+# Function to create a stacked bar plot
+def plot_categorical_churn(column_name, font_size=12, font_weight='normal'):
     # Calculate the percentage of churned and non-churned customers for each category
     category_counts = df[column_name].value_counts()
     churn_counts = df.groupby(column_name)['churn'].sum()
@@ -31,13 +77,13 @@ def plot_categorical_churn(column_name):
 
     # Set the x-axis tick labels and plot title
     ax.set_xticks(bar_positions)
-    ax.set_xticklabels(category_counts.index)
-    ax.set_xlabel(column_name)
-    ax.set_ylabel('Percentage')
-    ax.set_title(f'Percentage of Churned and Non-Churned Customers by {column_name}')
+    ax.set_xticklabels(category_counts.index, fontsize=font_size, fontweight=font_weight)
+    ax.set_xlabel(column_name, fontsize=font_size, fontweight=font_weight)
+    ax.set_ylabel('Percentage', fontsize=font_size, fontweight=font_weight)
+    ax.set_title(f'Percentage of Churned and Non-Churned Customers by {column_name}', fontsize=font_size, fontweight=font_weight)
 
     # Add a legend
-    ax.legend()
+    ax.legend(bbox_to_anchor=(1.04, 1), loc="upper left")
 
     # Display the plot
     plt.tight_layout()
@@ -180,3 +226,7 @@ def plot_recall_scores(models, recall_scores):
 
     # Show the plot
     plt.show()
+
+
+
+

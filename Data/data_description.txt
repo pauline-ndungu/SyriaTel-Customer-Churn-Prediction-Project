@@ -44,6 +44,29 @@ There are 2,850 records with "False" (not churned) and 483 records with "True" (
 The churn class distribution shows that the dataset has a class imbalance, with a higher number of customers not churning compared to those who churned.
 
 
+Data Sources:
 
+The data for this project is sourced from telecommunications company SyriaTel.
+The dataset contains information on various attributes related to customer accounts.
+
+Data Description:
+
+Size: The dataset contains 3,333 entries (rows).
+
+Columns: There are 21 columns in total, each representing a different attribute.
+
+Data Types: The dataset consists of various data types:
+
+Object: State, phone number, international plan, and voice mail plan.
+
+Integer: Account length, area code, number vmail messages, total day calls, total eve calls, total night calls, total intl calls, and customer service calls.
+
+Float: Total day minutes, total day charge, total eve minutes, total eve charge, total night minutes, total night charge, total intl minutes, total intl charge.
+
+Boolean: Churn (indicating whether a customer churned or not).
+
+Non-Null Count: All columns have 3333 non-null entries, indicating that there are no missing values in the dataset.
+
+Memory Usage: The dataset consumes approximately 524.2 KB of memory.
 
 
