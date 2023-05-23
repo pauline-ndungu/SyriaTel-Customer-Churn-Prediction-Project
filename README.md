@@ -78,6 +78,18 @@ The evaluation metrics used to assess the models include:
 - The model with the best performance can be identified based on the chosen evaluation metric and the mean score obtained from cross-validation.
 
 Please refer to the code and results in the telecom_churn.ipynb notebook for detailed information on each model's performance and cross-validation scores
+   ![Churn Class Distribution](https://github.com/pauline-ndungu/Project/assets/125973188/ed9178af-b099-4461-83ca-4c111c759bf8)
+
+   ![InternationalPlan](https://github.com/pauline-ndungu/Project/assets/125973188/27dabd36-03e9-46c8-b6a8-3df8dbd2e06c)
+![voicemail](https://github.com/pauline-ndungu/Project/assets/125973188/ca7cd3da-2049-4298-b1ef-f4bb82a27e4c)
+
+![Area Code](https://github.com/pauline-ndungu/Project/assets/125973188/539d10f0-1437-4dce-9294-27cae7ffcc85)
+   ![statescnt](https://github.com/pauline-ndungu/Project/assets/125973188/ad598d3e-b976-408e-a498-d0f8c94e34a8)
+
+![modelevaluation](https://github.com/pauline-ndungu/Project/assets/125973188/e54de8ea-ecd6-4014-9cfa-8cb11fbdef7d)
+   ![Feature Importance](https://github.com/pauline-ndungu/Project/assets/125973188/54e381fd-61f9-4bf5-8027-47570b637073)
+
+![Bimodel Evaluation](https://github.com/pauline-ndungu/Project/assets/125973188/5d0ae8b3-a53b-458b-bb10-326214df3034)
 
 ## Conclusion
 
