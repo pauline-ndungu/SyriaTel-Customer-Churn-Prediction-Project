@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Project</h1>
+<h1 align="center">SyriaTel Customer Churn Project</h1>
 
 
 ## :dart: Project Title and Description ##
